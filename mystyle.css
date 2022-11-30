@@ -1,0 +1,35 @@
+        body{
+            background-image: url("background.jpg");
+            backdrop-filter: blur(5px);
+        }
+        .container{
+            margin:auto;
+             border:5px groove;
+            border-color:lightpink;  
+        
+            }
+        .cl{
+            text-align: center;
+        }
+
+        h1{
+            text-align:center;
+            font-family: algerian;
+        }
+        h2{
+            text-align:center;
+            font-family: algerian;
+        }
+        p{
+            font-family: cursive;
+        }
+
+         tr:nth-child(even) {
+            background-color: rosybrown;
+        }
+        th:nth-child(even) {
+            background-color: rosybrown;
+        }
+ th:nth-child(odd) {
+            background-color: rosybrown;
+        }
